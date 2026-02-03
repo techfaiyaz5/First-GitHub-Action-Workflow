@@ -1,0 +1,13 @@
+name: Faiyaz Khan
+
+on: 
+  push:
+    branches: [ main ]
+
+jobs:
+  demo:
+    runs-on: ubantu-latest
+
+    steps:
+    - name: Greetings
+      run: echo "Hello From Apun"
